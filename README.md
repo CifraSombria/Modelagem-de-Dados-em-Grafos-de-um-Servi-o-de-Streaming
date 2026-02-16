@@ -40,23 +40,3 @@ Modelar e implementar um pequeno grafo de conhecimento para um serviço de strea
 
 ---
 
-## 🧱 Estrutura sugerida do repositório
-
-```bash
-.
-├── cypher/
-│   ├── 01_constraints.cypher
-│   ├── 02_nodes_users.cypher
-│   ├── 03_nodes_genres.cypher
-│   ├── 04_nodes_actors_directors.cypher
-│   ├── 05_nodes_movies_series.cypher
-│   ├── 06_relationships_in_genre.cypher
-│   ├── 07_relationships_acted_directed.cypher
-│   ├── 08_relationships_watched.cypher
-│   └── 09_validation_queries.cypher
-├── docs/
-│   ├── diagrama-modelo.png
-│   └── diagrama-mermaid.md
-├── README.md
-└── LICENSE
-
