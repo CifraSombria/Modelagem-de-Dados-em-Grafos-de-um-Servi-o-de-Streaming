@@ -1,0 +1,19 @@
++---------+           WATCHED {rating}            +---------+
+|  User   | ------------------------------------> |  Movie  |
++---------+                                       +---------+
+     \                                              ^
+      \ WATCHED {rating}                            | ACTED_IN
+       \                                            |
+        v                                           |
+      +---------+ <----------- ACTED_IN -------- +--------+
+      | Series  |                                | Actor  |
+      +---------+                                +--------+
+          |   ^                                     
+ IN_GENRE |   | DIRECTED                            
+          v   |                                     
+      +---------+ <----------- DIRECTED -------- +----------+
+      | Genre   |                               | Director |
+      +---------+                               +----------+
+
+Movie  --IN_GENRE--> Genre
+Series --IN_GENRE--> Genre
